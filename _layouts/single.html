@@ -38,8 +38,8 @@ layout: default
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.collection == 'publications' %}
           <p>{% for author in page.authors %} 
-                {% if author == 'SELF' %} <b>Talay M Cheema</b>, {% endif %}
-                {% else %} {{ author }}, 
+                {% if author == 'SELF' %} <b>Talay M Cheema</b>, 
+                {% else %} {{ author }}, {% endif %}
               {% endfor %} <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
           <p>{% if page.paperurl %}<a href="{{ post.paperurl }}">paper</a> &middot;{% endif %}
             {% if page.talkurl %}<a href="{{ post.talkurl }}">talk</a> &middot;{% endif %}

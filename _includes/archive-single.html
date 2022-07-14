@@ -42,8 +42,8 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>{% for author in post.authors %} 
-                {% if author == 'SELF' %} <b>Talay M Cheema</b>, {% endif %}
-                {% else %} {{ author }}, 
+                {% if author == 'SELF' %} <b>Talay M Cheema</b>, 
+                {% else %} {{ author }}, {% endif %}
               {% endfor %} <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           <p>{% if post.paperurl %}<a href="{{ post.paperurl }}">paper</a> &middot;{% endif %}
             {% if post.talkurl %}<a href="{{ post.talkurl }}">talk</a> &middot;{% endif %}
