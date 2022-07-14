@@ -45,7 +45,12 @@
                 {% if author == 'SELF' %} <b>Talay M Cheema</b>, {% endif %}
                 {% else %} {{ author }}, 
               {% endfor %} <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-          <p> <a href="{{ post.paperurl }}">paper</a> &middot; <a href="{{ post.rawciteurl }}">text citation</a> &middot; <a href="{{ post.bibtex }}">bibtex</a></p>
+          <p>{% if post.paperurl %}<a href="{{ post.paperurl }}">paper</a> &middot;{% endif %}
+            {% if post.talkurl %}<a href="{{ post.talkurl }}">talk</a> &middot;{% endif %}
+            {% if post.slidesurl %}<a href="{{ post.slidesurl }}">slides</a> &middot;{% endif %}
+            {% if post.posterurl %}<a href="{{ post.posterurl }}">poster</a> &middot;{% endif %}
+              {% if post.rawciteurl %}<a href="{{ post.rawciteurl }}">text citation</a> &middot;{% endif %}
+              {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">bibtex</a>{% endif %}</p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -54,14 +59,6 @@
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
-    
-    {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
 
   </article>

@@ -1,0 +1,1 @@
+Talay M Cheema. Understanding Local Linearisation in Variational Gaussian Process State Space Models. Time Series Workshop at the 28th International Conference on Machine Learning (ICML), 2021.
