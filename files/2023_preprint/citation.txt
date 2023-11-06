@@ -1,0 +1,1 @@
+Talay M Cheema and Carl Edward Rasmussen. Integrated Variational Fourier Features for Fast Spatial Modelling with Gaussian Processes. arxiv:2308.14142, 2023.
