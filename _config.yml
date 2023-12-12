@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Talay M Cheema"
-  avatar           : "profile-2.jpg"
-  bio              : "Machine learning PhD student"
-  location         : "Cambridge, UK"
+  name             : "Yaxing Wang"
+  avatar           : "CROPPED-_DSC4731.jpg"
+  bio              : "Associate Professor"
+  location         : "Nankai Universty, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.es/citations?user=6CsB8k0AAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "talayCh"
+  github           : "yaxingwang"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "TalayCh"
+  twitter          : "Yaxing_Wang"
   vine             :
   weibo            :
   xing             :
