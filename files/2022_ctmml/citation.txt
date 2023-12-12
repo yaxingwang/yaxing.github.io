@@ -1,1 +1,1 @@
-Talay M Cheema, Carl Edward Rasmussen. Contrasting Discrete and Continuous Time Methodsfor Bayesian System Identification. Workshop on Continuous Time Methods in Machine Learning at the 39th International Conference on Machine Learning, 2022.
+Boshi Li. Real image Inversion by learning   classifier-free guidance in text-driven diffusion model. Workshop on Continuous Time Methods in Machine Learning at the 39th International Conference on Machine Learning, 2022.
