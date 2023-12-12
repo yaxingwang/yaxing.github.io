@@ -6,7 +6,7 @@ excerpt: ''
 date: 2022-07-23
 authors:
   - 'SELF'
-  - 'Carl Edward Rasmussen'
+  - 'Boshi LI'
 venue: 'Workshop on Continuous Time Methods in Machine Learning (CTMML) at the 39th International Conference on Machine Learning (ICML)'
 paperurl: 'http://talayCh.github.io/files/2022_ctmml/paper.pdf'
 slidesurl: 'http://talayCh.github.io/files/2022_ctmml/slides.pdf'
