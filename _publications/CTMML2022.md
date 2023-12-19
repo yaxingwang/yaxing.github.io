@@ -5,12 +5,9 @@ permalink: /publication/CTMML2022
 excerpt: ''
 date: 2022-07-23
 authors:
-  - 'SELF'
   - 'Boshi LI'
 venue: 'Workshop on Continuous Time Methods in Machine Learning (CTMML) at the 39th International Conference on Machine Learning (ICML)'
 paperurl: 'http://yaxingwang.github.io/files/2022_ctmml/paper.pdf'
-slidesurl: 'http://yaxingwang.github.io/files/2022_ctmml/slides.pdf'
-posterurl: 'http://yaxingwang.github.io/files/2022_ctmml/poster.pdf'
 rawciteurl: 'http://yaxingwang.github.io/files/2022_ctmml/citation.txt'
 ---
 
